@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Anda | Portofolio Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Mengembalikan font ke Poppins dan Inter untuk tampilan normal -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Elemen untuk efek glow di latar belakang -->
+    <div class="background-glows">
+        <div class="glow glow-pink"></div>
+        <div class="glow glow-blue"></div>
+        <div class="glow glow-white-1"></div>
+        <div class="glow glow-white-2"></div>
+    </div>
+
+    <header>
+    <div class="container">
+        <h1 class="logo"><a href="#hero">My Portofolio</a></h1>
+        <nav class="main-nav"> <!-- PASTIKAN INI ADA DI SINI -->
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="cv.pdf" class="btn btn-download" download>Unduh CV <i class="fas fa-download"></i></a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Placeholder untuk foto profil -->
+                    <img src="angga.png" alt="Foto Profil" class="profile-pic animate-fade-in">
+                    <h2 class="animate-slide-up">Halo, Saya <span>Angga Sukha Pratama</span></h2>
+                    <p class="tagline animate-slide-up">Software Engginer | UI/UX Desainer | Mobile Developer</p>
+                    <a href="#projects" class="btn btn-primary animate-fade-in">Lihat Proyek Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Tentang Saya</h2>
+                <p class="section-description animate-on-scroll">Saya seorang mahasiswa dari Politeknik Harapan Bersama dengan pengalaman [jumlah tahun] di bidang pengembangan perangkat lunak. Saya memiliki passion untuk menciptakan solusi digital yang elegan dan fungsional.</p>
+                <p class="section-description animate-on-scroll">Pendekatan saya berfokus pada pengembangan web, Dart, dan desain UI/UX, dengan perhatian kuat terhadap detail dan pengalaman pengguna, serta didukung oleh kemampuan memecahkan masalah dan beradaptasi dengan teknologi baru.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2>Keahlian</h2>
+                <div class="skill-grid">
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fas fa-code"></i>
+                        <h3>Dart</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-flask"></i>
+                        <h3>Flask</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class="skill-item animate-on-scroll">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Proyek Terbaru</h2>
+                <div class="project-grid">
+                    <div class="project-card animate-on-scroll">
+                        <!-- Placeholder untuk gambar proyek -->
+                        <img src="https://placehold.co/350x220/2563eb/ffffff?text=Proyek+1" alt="Proyek 1">
+                        <div class="project-content">
+                            <h3>Aplikasi Web Dinamis</h3>
+                            <p>Mengembangkan aplikasi web interaktif menggunakan **Python Flask** dan **JavaScript**, menampilkan antarmuka pengguna yang responsif dan database **MongoDB**.</p>
+                            <a href="#" class="btn btn-secondary">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card animate-on-scroll">
+                        <!-- Placeholder untuk gambar proyek -->
+                        <img src="https://placehold.co/350x220/2563eb/ffffff?text=Proyek+2" alt="Proyek 2">
+                        <div class="project-content">
+                            <h3>Sistem Manajemen Inventaris</h3>
+                            <p>Membangun sistem manajemen inventaris berbasis web dengan fitur CRUD lengkap, otentikasi pengguna, dan laporan data yang efisien.</p>
+                            <a href="#" class="btn btn-secondary">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                     <div class="project-card animate-on-scroll">
+                        <!-- Placeholder untuk gambar proyek -->
+                        <img src="https://placehold.co/350x220/2563eb/ffffff?text=Proyek+3" alt="Proyek 3">
+                        <div class="project-content">
+                            <h3>Aplikasi Mobile Cross-Platform</h3>
+                            <p>Merancang dan mengimplementasikan aplikasi mobile untuk Android dan iOS menggunakan **Dart** dan *framework* **Flutter**.</p>
+                            <a href="#" class="btn btn-secondary">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <p class="section-description animate-on-scroll">Tertarik untuk bekerja sama atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya melalui informasi di bawah ini.</p>
+                <div class="contact-info">
+                    <p class="animate-on-scroll"><i class="fas fa-envelope"></i> <a href="anggasp539@gmail.com">anggasp539@gmail.com</a></p>
+                    <p class="animate-on-scroll"><i class="fas fa-phone"></i> <a href="tel:+628123456789">+62 812-3456-789</a></p>
+                    <div class="social-links animate-on-scroll">
+                        <a href="www.linkedin.com/in/angga-sukha-pratama-254b52269" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Anggasukhapratama" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/angga_prtma26?igsh=MTJ0aHhyanNxd25seQ==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Angga Sukha Pratama. Hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
